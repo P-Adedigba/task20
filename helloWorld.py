@@ -1,3 +1,5 @@
 print("Git is awesome!")
 name = input("please enter your name and surname: ")
-print(name)
+age = input("Please tell us your age: ")
+address = input("Please tell us the city where you live: ")
+print("This is " + name + ", who is " + age + " and lives in " + address)
